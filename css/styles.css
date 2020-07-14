@@ -1,0 +1,46 @@
+.hero{
+    background-image: url(/images/backgrounds/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 100px){
+    .hero{
+        background-image: url(/images/backgrounds/hero.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        overflow: hidden;
+    }
+  }
+
+  @media only screen and (max-width: 720px) and (min-width: 500px){
+    .hero{
+        background-image: url(/images/backgrounds/hero.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        overflow: hidden;
+    }
+
+  }
+
+  .sect{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+.lefty{
+  width: 80%;
+}
+
+.ryt{
+  width: 20%;
+}
+
+  .form-check-label{
+    padding-left: 20px;
+  }
