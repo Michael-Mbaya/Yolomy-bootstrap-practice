@@ -23,11 +23,11 @@
         background-position: center;
         overflow: hidden;
     }
-
   }
 
+
   .sect{
-    background-color: antiquewhite;
+    background-color: #FFDEAD; /*navajowhite*/
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -41,6 +41,6 @@
   width: 20%;
 }
 
-  .form-check-label{
+.form-check-label{
     padding-left: 20px;
-  }
+}
