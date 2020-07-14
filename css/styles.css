@@ -1,13 +1,15 @@
-.hero{
-    /* background-image: url("/images/backgrounds/hero.jpg"); */
+.hero,.about{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     overflow: hidden;
 }
 
+.sect,fieldset,.outro,footer,.hero{
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 500px) and (min-width: 100px){
     .hero{
-        /* background-image: url("/images/backgrounds/hero.jpg"); */
         background-repeat: no-repeat;
         background-size:cover;
         background-position: center;
@@ -17,7 +19,6 @@
 
   @media only screen and (max-width: 720px) and (min-width: 500px){
     .hero{
-        /* background-image: url("/images/backgrounds/hero.jpg"); */
         background-repeat: no-repeat;
         background-size:cover;
         background-position: center;
@@ -43,4 +44,54 @@
 
 .form-check-label{
     padding-left: 20px;
+}
+
+.foottext{
+  display: flex;
+  width: 100%;
+}
+
+.footleft{
+  width: 50%;
+  text-align: left;
+  color: goldenrod;
+}
+
+.footryt{
+  width: 50%;
+  text-align: right;
+}
+
+.cbody{
+  height: 230px;
+}
+
+.abtfield{
+  border: 1px solid olive;
+}
+
+.abtinfo{
+  font-size: 16px;
+}
+
+.outro{
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.outleft{
+  width: 10%;
+}
+
+.outryt{
+  width: 90%;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+
 }
